@@ -17,8 +17,8 @@
     echo 'Hello world in PHP';
 
     $host = 'db';
-    $user = 'root';
-    $password = 'changeme';
+    $user = 'testuser';
+    $password = 'secret';
     $db = 'test_db';
 
     $conn = new mysqli ($host,$user,$password,$db);
